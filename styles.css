@@ -228,10 +228,7 @@ body {
     .container {
         grid-template-columns: 1fr;
     }
-
-    .sidebar {
-        display: none;
-    }
+    
 }
 
 @media (max-width: 768px) {
@@ -242,6 +239,8 @@ body {
     .hero {
         height: 300px;
     }
+
+    
 
     .hero-content h2 {
         font-size: 1.5rem;
